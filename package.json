@@ -9,7 +9,8 @@
     "url": "git+https://github.com/gbhrdt/web-push-meteor.git"
   },
   "dependencies": {
-    "web-push": "^2.0.0",
-    "create-ecdh": "^4.0.0"
+    "browserify-aes": "^1.0.6",
+    "create-ecdh": "^4.0.0",
+    "web-push": "^2.0.0"
   }
 }

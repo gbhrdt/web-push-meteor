@@ -1,6 +1,7 @@
 const webPush = require('web-push');
 const crypto = require('crypto');
 const createEcdh = require('create-ecdh');
+const aes = require('browserify-aes');
 
 // add missing buffer functions (taken from node source)
 function checkInt(buffer, value, offset, ext, max, min) {
@@ -57,5 +58,7 @@ Buffer.prototype.readUIntBE = function(offset, byteLength, noAssert) {
 
 // add missing crypto functions (browserify version)
 crypto.createECDH = createEcdh;
+crypto.createCipheriv = aes.createCipheriv;
+crypto.createDecipheriv = aes.createDecipheriv;
 
 module.exports = webPush;
