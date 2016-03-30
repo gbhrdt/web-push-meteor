@@ -1,0 +1,15 @@
+{
+  "name": "web-push-meteor",
+  "version": "2.0.1",
+  "description": "web-push for meteor",
+  "author": "gbhrdt",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbhrdt/web-push-meteor.git"
+  },
+  "dependencies": {
+    "web-push": "2.0.1",
+    "create-ecdh": "^4.0.0"
+  }
+}
