@@ -1,7 +1,7 @@
 const webPush = require('web-push');
 const crypto = require('crypto');
 const createEcdh = require('create-ecdh');
-const aes = require('browserify-aes');
+const aes = require('browserify-aes/browser');
 
 // add missing buffer functions (taken from node source)
 function checkInt(buffer, value, offset, ext, max, min) {

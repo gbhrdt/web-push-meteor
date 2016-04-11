@@ -12,5 +12,8 @@
     "browserify-aes": "^1.0.6",
     "create-ecdh": "^4.0.0",
     "web-push": "^2.0.0"
+  },
+  "peerDependencies": {
+    "http_ece": "https://github.com/martinthomson/encrypted-content-encoding/tarball/982deab65cf457b59bdb0a7279fb77ae5045d2ed"
   }
 }
