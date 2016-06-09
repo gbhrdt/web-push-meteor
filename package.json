@@ -1,6 +1,6 @@
 {
   "name": "web-push-meteor",
-  "version": "2.0.0",
+  "version": "2.0.4",
   "description": "web-push for meteor",
   "author": "gbhrdt",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "dependencies": {
     "browserify-aes": "^1.0.6",
     "create-ecdh": "^4.0.0",
-    "web-push": "https://github.com/gbhrdt/web-push/tarball/44cad703323c1e569e4b19e3ee5067f4ef18801a"
+    "web-push": "^2.1.1"
   }
 }
